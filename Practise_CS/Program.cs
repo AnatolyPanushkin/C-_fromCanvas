@@ -9,7 +9,8 @@ namespace Practise_CS
         static void Main(string[] args)
         {
             Console.WriteLine("1 - Суммирование секунд, " +
-                              "2 - Информация о скорости");
+                              "2 - Информация о скорости"+
+                              "3 - Старая библиотека");
             switch (Console.ReadLine())
             {
                 //Задача: Суммирование секунд
@@ -26,6 +27,10 @@ namespace Practise_CS
                 //задача: Информация о скорости
                 case "2":
                     InformationAboutSpeed.Speed(double.Parse(Console.ReadLine()));  
+                    break;
+                //задача: Старая библиотека
+                case "3":
+                    OldLibrary.Book();
                     break;
             }
             
