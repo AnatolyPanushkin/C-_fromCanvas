@@ -10,7 +10,8 @@ namespace Practise_CS
         {
             Console.WriteLine("1 - Суммирование секунд, " +
                               "2 - Информация о скорости"+
-                              "3 - Старая библиотека");
+                              "3 - Старая библиотека"+
+                              "4 - Числа заканчивающиеся на 7");
             switch (Console.ReadLine())
             {
                 //Задача: Суммирование секунд
@@ -31,6 +32,9 @@ namespace Practise_CS
                 //задача: Старая библиотека
                 case "3":
                     OldLibrary.Book();
+                    break;
+                case "4":
+                    NumbersEnd7.Numbers();
                     break;
             }
             
